@@ -10,6 +10,10 @@ public class WrapperToPrimitive {
 
         int i = a.intValue();   // converting the integer value i to int
 
+        int j = a;
+
+        System.out.println(a + " " + i + " " + j);
+
 
 
     }
