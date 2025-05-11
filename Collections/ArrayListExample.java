@@ -10,7 +10,13 @@ public class ArrayListExample {
         fruits.add("Banana");
         fruits.add("Mango");
 
-        // Print gareko
-        System.out.println(fruits);
+        //traversing
+        Iterator itr = fruits.iterator();
+
+        while (itr.hasNext())
+        {
+            System.out.println(itr.next());
+
+        }
     }
 }
