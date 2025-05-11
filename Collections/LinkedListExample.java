@@ -10,7 +10,14 @@ public class LinkedListExample {
         ll.add("Prabin");
         ll.add("Anuzz");
 
-        
+        Iterator itr = ll.iterator();
+
+        // now traversing the elements
+
+        while (itr.hasNext())
+        {
+            System.out.println(itr.next());
+        }
 
 
     }
