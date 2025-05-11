@@ -2,7 +2,7 @@ package Collections;
 
 import java.util.*;
 
-public class ArrayList {
+public class ArrayListExample {
     public static void main(String[] args) {
         // List banauxa
         ArrayList<String> fruits = new ArrayList<>();
@@ -16,5 +16,3 @@ public class ArrayList {
         System.out.println(fruits);
     }
 }
-
-
