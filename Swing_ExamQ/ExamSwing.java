@@ -13,7 +13,17 @@ public class ExamSwing {
         f.setLayout(null);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-      
+        JLabel l1 = new JLabel("Name");
+        l1.setBounds(60,60,60,20);
+
+        JTextField t1 = new JTextField();
+        t1.setBounds(130,60,80,20);
+
+        JLabel l2 = new JLabel("Mobile");
+        l2.setBounds(60,90,60,20);
+
+        JTextField t2 = new JTextField();
+        t2.setBounds(130,90,80,20);
 
 
     }
