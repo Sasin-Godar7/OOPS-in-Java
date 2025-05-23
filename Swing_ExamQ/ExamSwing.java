@@ -23,7 +23,7 @@ public class ExamSwing {
         l2.setBounds(60,90,60,20);
 
         JTextField t2 = new JTextField();
-        t2.setBounds(130,90,80,20);
+        t2.setBounds(130,90,80,20)
 
 
     }
