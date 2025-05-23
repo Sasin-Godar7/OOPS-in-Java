@@ -21,7 +21,19 @@ public class JavaStackExample {
 
         System.out.println("Elements in stack are :" + stk);
 
-      result = stk.empty();
+        // peek() – shows top value but doesn't remove
+        int top1= stk.peek();
+        System.out.println("Top element (peek): " + top1);
+
+        // pop() – removes and returns top value
+        int removed = stk.pop();
+        System.out.println("Removed element (pop): " + removed);
+
+        int top2= stk.peek();
+        System.out.println("Top element (peek): " + top2);
+
+
+        result = stk.empty();
 
         System.out.println("nothing left in the stack ..stack is empty" + result);
 
