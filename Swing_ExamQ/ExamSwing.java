@@ -65,6 +65,7 @@ public class ExamSwing {
         f.add(l2); f.add(t2);
         f.add(l3); f.add(r1); f.add(r2);
         f.add(l4); f.add(dayBox); f.add(monthBox); f.add(yearBox);
+
         f.add(submit);
 
         f.setSize(400, 300);
