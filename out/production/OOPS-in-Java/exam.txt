@@ -1,0 +1,5 @@
+Name = sasin godar
+Email = sasin@gmail.com
+Password = sasin123
+Gender = Male
+Dob = 2 Mar 2004
